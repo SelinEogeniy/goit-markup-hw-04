@@ -125,13 +125,15 @@ img {
 
 .order {
   font-family: "Roboto", sans-serif;
-
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
   background-color: #2e2f42;
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url("/goit-markup-hw-04/images/people-office.jpg");
+    url("../images/people-office.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
