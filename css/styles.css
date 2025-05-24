@@ -290,6 +290,7 @@ img {
   height: 100%;
   border-radius: 50%;
   background-color: #4d5ae5;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-link:hover,
@@ -353,9 +354,10 @@ img {
 }
 
 /* Footer */
-.footer .container .logo {
+.footer-logo {
   display: inline-block;
   margin-bottom: 16px;
+  padding-top: 0;
 }
 
 .footer {
@@ -364,6 +366,9 @@ img {
   padding: 100px 0;
 }
 
+.footer-container {
+  display: flex;
+}
 .footer .footer-text {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
@@ -384,3 +389,44 @@ img {
   background-color: #f4f4fd;
   margin-bottom: 8px;
 }
+
+/* ==============ICON LIST============ */
+
+.social-media {
+  margin-left: 120px;
+}
+.social-media-text {
+  margin-bottom: 16px;
+}
+
+.social-media-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+.socilal-media-item {
+  width: 40px;
+  height: 40px;
+}
+
+.social-media-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: #4d5ae5;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.social-media-link:hover,
+.social-media-link:focus {
+  background-color: #404bbf;
+}
+
+.social-media-icon {
+  fill: #f4f4fd;
+}
+/* ==============ICON LIST============ */
